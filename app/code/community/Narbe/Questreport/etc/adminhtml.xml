@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <report>
+            <children>
+                <questreport translate="title" module="questreport">
+                    <sort_order>11</sort_order>
+                    <title>Report - Narbe</title>
+                    <action>questreport/adminhtml_questreport</action>
+                </questreport>
+            </children>
+        </report>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <report>
+                        <children>
+                            <questreport translate="title" module="questreport">
+                                <title>Narbe</title>
+                            </questreport>
+                        </children>
+                    </report>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
